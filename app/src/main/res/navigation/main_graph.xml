@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    android:label="Drawer 1"
+    app:startDestination="@id/drawer1Fragment">
+
+    <fragment
+        android:id="@+id/drawer1Fragment"
+        android:name="com.example.singleactivity.destino1Fragment"
+        android:label="fragment_destino1"
+        tools:layout="@layout/fragment_destino1" />
+    <fragment
+        android:id="@+id/drawer2Fragment"
+        android:name="com.example.singleactivity.destino2Fragment"
+        android:label="Drawer 2"
+        tools:layout="@layout/fragment_destino2" />
+    <fragment
+        android:id="@+id/drawer3Fragment"
+        android:name="com.example.singleactivity.destino3Fragment"
+        android:label="Drawer 3"
+        tools:layout="@layout/fragment_destino3" />
+    <fragment
+        android:id="@+id/bottomBar1Fragment"
+        android:name="com.example.singleactivity.bottom1Fragment"
+        android:label="Bottom 1"
+        tools:layout="@layout/fragment_bottom1" />
+    <fragment
+        android:id="@+id/bottomBar2Fragment"
+        android:name="com.example.singleactivity.bottom2Fragment"
+        android:label="Bottom 2"
+        tools:layout="@layout/fragment_bottom2" />
+    <fragment
+        android:id="@+id/bottomBar3Fragment"
+        android:name="com.example.singleactivity.bottom3Fragment"
+        android:label="Bottom 3"
+        tools:layout="@layout/fragment_bottom3" />
+    <fragment
+        android:id="@+id/option1Fragment"
+        android:name="com.example.singleactivity.option1Fragment"
+        android:label="Options 1"
+        tools:layout="@layout/fragment_option1" />
+    <fragment
+        android:id="@+id/option2Fragment"
+        android:name="com.example.singleactivity.option2Fragment"
+        android:label="fragment_option2"
+        tools:layout="@layout/fragment_option2" />
+    <fragment
+        android:id="@+id/option3Fragment"
+        android:name="com.example.singleactivity.option3Fragment"
+        android:label="fragment_option3"
+        tools:layout="@layout/fragment_option3" />
+    <fragment
+        android:id="@+id/tabbed1Fragment"
+        android:name="com.example.singleactivity.tabbed1Fragment"
+        android:label="fragment_tabbed1"
+        tools:layout="@layout/fragment_tabbed1" />
+</navigation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/drawer1Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="Destino 1" />
+
+    <item
+        android:id="@+id/drawer2Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="Destino 2" />
+
+    <item
+        android:id="@+id/drawer3Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="Destino 3" />
+
+    <item
+        android:id="@+id/tabbed1Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="Tabbedddd" />
+
+
+</menu>
